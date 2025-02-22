@@ -3,32 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modpack Installation Guide</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Minecraft Modpack Installation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .card {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+        }
+        .icon {
+            margin-right: 10px;
+            color: green;
+        }
+    </style>
 </head>
-<body class="bg-gray-900 text-white">
-    <div class="container mx-auto p-8 text-center">
-        <h1 class="text-4xl font-bold mb-6">Modpack Installation Guide</h1>
-        
-        <div class="grid md:grid-cols-2 gap-8">
-            <!-- CurseForge Section -->
-            <div class="bg-gray-800 p-6 rounded-2xl shadow-lg">
-                <h2 class="text-2xl font-semibold mb-4">CurseForge Launcher</h2>
-                <p class="mb-4">1. <a href="https://www.curseforge.com/download/app" target="_blank" class="text-blue-400 underline">Install</a> Curseforge</p>
-                <p class="mb-4">1. Download<a href="#" class="text-blue-400 underline"> this ZIP file</a></p>
-                <p class="mb-4">2. Follow <a href="https://www.youtube.com/watch?v=yPyAjmrpmpU" target="_blank" class="text-blue-400 underline">this guide</a> to import into Curseforge</p>
-                <p class="mb-4">3. Join <span class="font-bold">server.domain.com</span></p>
-            </div>
-            
-            <!-- Prism Launcher Section -->
-            <div class="bg-gray-800 p-6 rounded-2xl shadow-lg">
-                <h2 class="text-2xl font-semibold mb-4">Prism Launcher</h2>
-                <p class="mb-4">1. <a href="https://prismlauncher.org/download/windows/" target="_blank" class="text-blue-400 underline">Install</a> Prism</p>
-                <p class="mb-4">1. Download<a href="#" class="text-blue-400 underline"> this ZIP file</a></p>
-                <p class="mb-4">2. Follow <a href="https://www.youtube.com/watch?v=_fwZIVqOqsE" target="_blank" class="text-blue-400 underline">this guide</a> to import into Prism</p>
-                <p class="mb-4">3. Join <span class="font-bold">server.domain.com</span></p>
-            </div>
-        </div>
+<body>
+    <div class="header">Minecraft Modpack Installation</div>
+    
+    <div class="card">
+        <span class="icon">✔</span>
+        <p>1. Install <a href="https://prismlauncher.org/">Prism Launcher</a> or <a href="https://www.curseforge.com/">CurseForge</a>. (I recommend Prism)</p>
+    </div>
+    
+    <div class="card">
+        <span class="icon">⬇</span>
+        <p>2. Download the latest mod pack zip. <strong>DO NOT</strong> unzip it.</p>
+    </div>
+    
+    <div class="card">
+        <span class="icon">✔</span>
+        <p>3. Import the pack-latest.zip into either Prism Launcher or CurseForge.</p>
+    </div>
+    
+    <div class="card" style="margin-left: 20px;">
+        <span class="icon">✔</span>
+        <p>3a. (Optional) If using Prism, add the pack from direct download (insert link) to always get the latest version.</p>
+    </div>
+    
+    <div class="card">
+        <span class="icon">▶</span>
+        <p>4. Join the server and enjoy!</p>
     </div>
 </body>
 </html>
